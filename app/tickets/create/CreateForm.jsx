@@ -22,7 +22,7 @@ export default function CreateForm() {
       user_email: "helton@netninja.dev",
     };
 
-    const response = await fetch("http://localhost:4000/tickets", {
+    const response = await fetch("http://localhost:4000/tickets/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
